@@ -35,3 +35,22 @@ Respuestas.SumarPrimerosNumeros()
 
 print("Ejercicio 10 - Dibuja una linea de asteriscos con la cantidad de asteriscos que el usuario ingrese")
 Respuestas.DibujoConAsteriscos()
+
+from EjerciciosEnClase import EjerciciosEnClase
+
+Resultados = EjerciciosEnClase(nombre="", perro="", gato="", a=0, b=0, Operacion="", TotalCompra=0, Descuento=0, Isv=0, ValorCompra=0, SubTotal=0, Total=0, AnioActual=0, AnioNacimiento=0, Edad=0, TablaMultiplicar=0, Num=0, Diametro=0, MiPerro="", Suma=0, Resta=0, Multi=0, Div=0, x=0, y=0, Potencia=0, Residuo=0, Raiz=0)
+print("EJERCICIOS HECHOS EN CLASE")
+print("Programa que determina si un numero es par o impar")
+Resultados.Condicionales()
+
+print ("Ejercicio 01 / Programa que calcule el total a pagar por un solo producto, incluyendo ISV Si el valor de la compra es mayor o igual a 1000, aplicar un 25 de descuento. El ISV es del 15.")
+Resultados.Ejercicio01()
+
+print("Ejercicio 02 / Programa que calcule la edad de una persona a partir de su año de nacimiento")
+Resultados.Ejercicio02()
+
+print ("Ejercicio 03 / Programa que imprime la tabla de multiplicar de un numero")
+Resultados.Ejercicio03()
+
+print ("Ejercicio 04 / Programa que imprime la tabla de multiplicar de un numero usando el ciclo While")
+Resultados.Ejercicio04()
