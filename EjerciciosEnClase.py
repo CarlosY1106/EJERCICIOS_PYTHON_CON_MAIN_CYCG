@@ -84,5 +84,132 @@ class EjerciciosEnClase:
             print(self.Num, "x", self.i, "=", self.Num * self.i)
             self.i += 1
 
+    def EjercicioCicloFor(self):
+        for i in range(11):
+            print(i)
 
+    def EjercicioTablaDel5(self):
+        print("TABLA DE MULTIPLICAR DEL 5")
+        for i in range(1, 11):
+            print("5 x", i, "=", 5 * i)
 
+    def EjercicioCicloWhile(self):
+        i = 1
+        while i <= 10:
+            print("Numero: ", i)
+            i += 1
+
+    def HolaMundo(self):
+        print("Hola Mundo")
+
+    def OperacionesAritmeticas(self):
+        a = 10
+        b = 5
+
+        # Suma
+        Suma = a + b
+        print(f"{a} + {b} = {Suma}")
+
+        # Resta
+        Resta = a - b
+        print(f"{a} - {b} = {Resta}")
+
+        # Multiplicacion
+        Multi = a * b
+        print(f"{a} * {b} = {Multi}")
+
+        # División
+        Div = a / b
+        print(f"{a} / {b} = {Div}")
+
+        # Ingreso de valores a variables
+        x = int(input("x: "))
+        y = int(input("y: "))
+
+        # Potencia
+        Potencia = x ** y
+        print(f"{x} ^ {y} = {Potencia}")
+
+        # Operador de residuo
+        Residuo = x % y
+        print(f"{x} % {y} = {Residuo}")
+
+        # Raiz cuadrada
+        Raiz = x ** (1/2)
+        print(f"Raiz cuadrada de {x} = {Raiz}")
+
+# --- FUNCIONES GLOBALES FUERA DE LA CLASE ---
+
+def saludo(nombre):
+    print(f"Hola {nombre}")
+
+def _Pi():
+    return 3.1416
+
+def suma(a, b):
+    return a + b
+
+def Suma(a, b):
+    return a + b
+
+def Resta(a, b):
+    return a - b
+
+def Multiplicacion(a, b):
+    return a * b
+
+def Division(a, b):
+    return a / b
+
+def Potencia(a, b):
+    return a ** b
+
+def Raiz(a):
+    return a ** (1/2)
+
+# --- DEMOSTRACIONES DE FUNCIONES GLOBALES ---
+if __name__ == "__main__":
+    saludo("Carlitos Chávez")
+
+    # Calcular el diametro de un circulo
+    R = 10
+    Diametro = 2 * _Pi() * R
+    print(f"El diametro del circulo es: {Diametro}")
+
+    # Funcion suma
+    print(f"La suma es igual a: {suma(1, 1)}")
+
+    # Invocaciones de las funciones aritmeticas
+    print(f"La suma es igual a: {Suma(1, 1)}")
+    print(f"La resta es igual a: {Resta(1, 1)}")
+    print(f"La multiplicacion es igual a: {Multiplicacion(2, 2)}")
+    print(f"La division es igual a: {Division(25, 5)}")
+    print(f"La potencia es igual a: {Potencia(2, 2)}")
+    print(f"La raiz cuadrada es igual a: {Raiz(36)}")
+
+# Clase animal 
+
+class Animal:
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def comer(self):
+        print(f"{self.nombre} esta comiendo")
+
+    def correr(self):
+        print(f"{self.nombre} esta corriendo")
+
+class Perro(Animal):
+    def ladrar(self):
+        print(f"{self.nombre} gua gua gua")
+
+# Definir objetos para usar las clases
+if __name__ == "__main__":
+    perro = Perro("Rufus")
+    perro.correr()
+    perro.ladrar()
+    perro.comer()
+
+    gato = Animal("Misio")
+    gato.correr()
+    gato.comer()

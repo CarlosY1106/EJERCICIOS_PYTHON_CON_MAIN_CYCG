@@ -54,3 +54,19 @@ Resultados.Ejercicio03()
 
 print ("Ejercicio 04 / Programa que imprime la tabla de multiplicar de un numero usando el ciclo While")
 Resultados.Ejercicio04()
+
+print ("Programa que imprime los numeros del 1 al 10 usando un ciclo for")
+Resultados.EjercicioCicloFor()
+
+print("Programa que imprime la tabla del 5 usando un ciclo for")
+Resultados.EjercicioTablaDel5()
+
+print("Programa que imprime los numeros del 1 al 10 usando un ciclo while")
+Resultados.EjercicioCicloWhile()
+
+print("Programa que imprime un saludo en la terminal")
+Resultados.HolaMundo()
+
+print("Programa que realiza operaciones aritméticas básicas")
+Resultados.OperacionesAritmeticas()
+
