@@ -9,7 +9,7 @@ class EjerciciosEnClase:
         self.a = a
         self.b = b
         self.Operacion = Operacion
-        self.TotalCompra = TotalCompra
+        self.TotalCompra = TotalCompra 
         self.Descuento = Descuento
         self.Isv = Isv
         self.ValorCompra = ValorCompra
